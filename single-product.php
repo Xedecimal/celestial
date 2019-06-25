@@ -9,7 +9,7 @@
  ?>
  <!DOCTYPE html>
 
- <html <?php language_attributes(); ?> class="no-js">
+ <html lang="en" <?php language_attributes(); ?> class="no-js">
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>">
         <meta name="viewport" content="width=device-width">
@@ -26,6 +26,6 @@
                 </div>
             </div>
             <?php wp_footer(); ?>
-        </div>			
+        </div>
     </body>
 </html>

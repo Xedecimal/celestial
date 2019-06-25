@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei')
+@import '../node_modules/github-calendar/dist/github-calendar-responsive.css'
+
+// region Responsive
+
+@media (min-width: 1200px)
+    .container
+        max-width: 1200px
+
+// endregion
+
+.site-title
+    font-family: 'ZCOOL XiaoWei', serif;
+
+body,
+div#page-inner
+    font: 11pt 'Open Sans'
+    display: flex
+    flex-direction: column
+    //min-height: 100vh
+
+#content
+    flex-grow: 1
+
+.posts-title,
+.navbar
+    img
+        vertical-align: text-bottom
+        height: 2em
+        margin-right: -0.57em;
+    .navbar-nav
+        margin-top: 2em;
+        margin-left: auto;
+    padding-left: 1rem
+
+.navbar
+    border-bottom: 1px solid #eaeaea
+
+.site-content-contain
+    background-color: transparent
+    margin-top: 60px
+
+.site-content-contain #content,
+.navigation-top
+    background-color: #fff
+    width: 75%
+    margin: 0 auto
+
+@media screen and (min-width: 48em)
+    .site-content
+        padding: 2.5em 0 0
+
+#primary #main .post
+    clear: left
+    float: left
+    width: 100%
+
+.post-excerpt
+    background: #f4f4f4
+    padding: 10px
+    margin-bottom: 20px
+
+img#loader
+    clear: both
+    margin: 0 auto
+
+#loader
+    text-align: center
+    display: none
+
+#loader.active
+    display: block
+
+.loader-gif
+    text-align: center
+    margin-top: 10em
+
+.post-entry
+    padding-top: 1em
+
+// region Card
+
+.card
+    border: none
+
+.col-md-4.card-outer
+    float: left
+    padding-top: 1em
+    padding-bottom: 1em
+
+.col-md-4.card-outer .card
+    height: 10em;
+
+// endregion
+
+.img-outer
+    overflow: hidden
+
+#posts-here
+    position: fixed
+    bottom: 10px
+
+.card-body div
+    float: left
+
+img.product-image,
+img.featured-image
+    width: 100%
